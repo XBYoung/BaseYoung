@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BaseTitle">
+        <attr name="backEnable" format="boolean" />
+        <attr name="settingEnable" format="boolean" />
+        <attr name="textSettingEnable" format="boolean" />
+        <attr name="title" format="string" />
+        <attr name="settingText" format="string" />
+        <attr name="titleBackground" format="reference" />
+        <attr name="settingRes" format="reference" />
+        <attr name="backRes" format="reference" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleContentColor" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="FilterEditText">
+        <attr name="allowEmoji" format="boolean"></attr>
+        <attr name="allowSpace" format="boolean"></attr>
+        <attr name="allowSpecial" format="boolean"></attr>
+        <attr name="filterMaxLength" format="integer"></attr>
+    </declare-styleable>
+</resources>

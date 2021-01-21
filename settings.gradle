@@ -1,0 +1,3 @@
+include ':xbyoungLib'
+include ':app'
+rootProject.name = "BaseYoung"
